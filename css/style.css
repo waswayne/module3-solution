@@ -1,0 +1,36 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: black;
+}
+h1{
+    margin-top: 50px;
+    font-size: 5em;
+    font-weight: 900;
+}
+.navbar{
+    background-color: #999999;
+    border: 5px solid;
+}
+.nav-link,
+.navbar-brand {
+    color: black;
+    cursor: pointer;
+ }
+.nav-link:hover {
+    color: white;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+#nav-list li{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    border-bottom: 3px solid black;
+    margin: 0;
+}
+
+
+
